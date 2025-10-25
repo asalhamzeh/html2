@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Selectors Example</title>
+  <style>
+    /* 1. Element selector */
+h1.p {
+      color:black;
+      background-color:red;
+      font-size: 20px;
+ }
+
+    p {
+      color: blue;           /* changes text color to blue */
+      font-size: 18px;       /* sets font size */
+    }
+
+    /* 2. Class selector */
+    .highlight {
+      background-color: yellow;  /* gives yellow background */
+      font-weight: bold;         /* makes text bold */
+    }
+
+    /* 3. ID selector */
+    #special {
+      color: red;              /* red text */
+      font-size: 20px;         /* slightly bigger */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Element selector: applies to all <p> tags -->
+  <p>This is a normal paragraph — styled by the <b>element selector</b>.</p>
+
+  <!-- Class selector: uses .highlight -->
+  <p class="highlight">This paragraph is highlighted with yellow background — styled by the <b>class selector</b>.</p>
+
+  <!-- ID selector: uses #special -->
+  <p id="special">This paragraph is special — styled by the <b>ID selector</b>.</p>
+
+</body>
+</html>

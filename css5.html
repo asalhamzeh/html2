@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combining Selectors Example</title>
+  <style>
+    /* Element + class */
+    p.highlight {
+      background-color: yellow; /* background color */
+      color: red;               /* 🔴 text color */
+      font-size: 20px;          /* 🔠 font size */
+    }
+
+    /* Element + ID */
+    p#special {
+      font-size: 22px;
+    }
+  </style>
+</head>
+<body>
+
+  <p class="highlight">This paragraph is highlighted — red text and yellow background.</p>
+  <p id="special">This paragraph is special — bigger font (22px).</p>
+
+</body>
+</html>
